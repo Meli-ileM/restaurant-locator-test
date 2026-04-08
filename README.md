@@ -98,7 +98,7 @@ Cas à tester explicitement :
 - `GET /api/restaurants/search?q=...`
 - `GET /api/restaurants/filter?cuisine=...`
 
-## 6. Déploiement et Infrastructure
+## Déploiement et Infrastructure
 
 Hébergement Backend : Déployé sur Railway (Instance Node.js). Le serveur bénéficie d'un cycle de déploiement continu (CI/CD) lié à la branche main du dépôt GitHub.
 
