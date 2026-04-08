@@ -100,4 +100,4 @@ Cas à tester explicitement :
 
 ## Auteur
 
-Melissa — TOPOS (test Geoptis 2026)
+Melissa MEDJBER — TOPOS (test Geoptis 2026)
