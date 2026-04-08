@@ -98,6 +98,17 @@ Cas à tester explicitement :
 - `GET /api/restaurants/search?q=...`
 - `GET /api/restaurants/filter?cuisine=...`
 
+## 6. Déploiement et Infrastructure
+
+Hébergement Backend : Déployé sur Railway (Instance Node.js). Le serveur bénéficie d'un cycle de déploiement continu (CI/CD) lié à la branche main du dépôt GitHub.
+
+Hébergement Frontend : Déployé sur Vercel, offrant des performances optimales pour le rendu de la Single Page Application (SPA) Vue.
+
+Base de Données : Instance PostgreSQL managée sur Supabase, garantissant la haute disponibilité et la persistance sécurisée des données avec le type DECIMAL.
+
+Accès direct à la solution :
+
+Application en ligne : https://restaurant-locator-test.vercel.app/
 ## Auteur
 
 Melissa MEDJBER — TOPOS (test Geoptis 2026)
