@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Manrope:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  --deep-night: #1a0a0b;
+  --royal-red: #881c1c;
+  --gold-antique: #d4a043;
+  --pale-gold: #e8c98a;
+  --ivory-white: #fff8f0;
+  --text-anthracite: #1a1a1a;
+
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", Consolas, monospace;
+
+  --overlay: rgba(26, 10, 11, 0.65);
+  --line-soft: rgba(212, 160, 67, 0.35);
+  --line-strong: rgba(212, 160, 67, 0.7);
+  --hover-soft: rgba(212, 160, 67, 0.12);
+  --shadow-gold: 0 12px 28px rgba(212, 160, 67, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-anthracite);
+  background: radial-gradient(circle at 8% 8%, var(--royal-red), var(--deep-night) 40%);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}

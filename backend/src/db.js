@@ -1,10 +1,10 @@
 const { Pool } = require("pg");
 
-// Connexion à PostgreSQL via l'URL définie dans .env
-// On utilise un Pool pour gérer plusieurs connexions simultanées
+// Le pool limite les coûts de connexion et stabilise l'API quand plusieurs requêtes arrivent en parallèle.
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: { rejectUnauthorized: false }, // Requis pour Supabase (connexion TLS)
+  // Supabase impose TLS ; on garde ce réglage explicite pour éviter les surprises d'environnement.
+  ssl: { rejectUnauthorized: false },
 });
 
 module.exports = pool;

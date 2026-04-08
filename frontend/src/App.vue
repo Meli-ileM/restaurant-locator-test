@@ -1,11 +1,7 @@
 <script setup>
+import Dashboard from "./views/Dashboard.vue";
 </script>
 
 <template>
-  <main>
-    <!-- Formulaire Geoptis à implémenter -->
-  </main>
+  <Dashboard />
 </template>
-
-<style scoped>
-</style>
