@@ -1,0 +1,11 @@
+# Railway Configuration
+
+# Use the following configuration for deploying a Node.js backend
+
+[build]
+  command = "npm install"
+
+[deploy]
+  command = "npm start"
+  env = { NODE_ENV = "production" }
+  automatic = true
